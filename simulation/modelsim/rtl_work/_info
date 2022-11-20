@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/simulation/modelsim
+vdrawer
+!s110 1667881107
+!i10b 1
+!s100 Udbc]hUk:bmzo6XnHZa=R1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF:9j8N8ghAO63n2@`m3H62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1667161439
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v
+!i122 0
+L0 1 28
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1667881107.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03
+Z6 tCvgOpt 0
+vreader_tb
+Z7 !s110 1667881108
+!i10b 1
+!s100 VCmz_P2o3bBK1`7>k:5>G3
+R1
+I;kLdb4B3@<nViNO<B>@A31
+R2
+R0
+w1667881094
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v
+!i122 2
+L0 1 152
+R3
+r1
+!s85 0
+31
+Z8 !s108 1667881108.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v|
+!i113 1
+R4
+R5
+R6
+vvga
+R7
+!i10b 1
+!s100 Q`f>4:@;MBjSSMFabhOX]2
+R1
+I^I[7zIgd=?445;gLHXbaZ3
+R2
+R0
+w1667159798
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v
+!i122 1
+L0 1 38
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v|
+!i113 1
+R4
+R5
+R6

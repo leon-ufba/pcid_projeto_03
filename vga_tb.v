@@ -1,24 +1,18 @@
-module drawer_tb;
+module vga_tb;
 
 reg clk = 0;
+wire H, V;
+wire D;
 wire [9:0] X;
 wire [9:0] Y;
-wire D;
-wire H, V;
-wire [7:0] R;
-wire [7:0] G;
-wire [7:0] B;
 
-drawer dwr (
+vga screen (
 	.clk(clk),
-	.CounterX(X),
-	.CounterY(Y),
-	.inDisplayArea(D),
 	.vga_h_sync(H),
 	.vga_v_sync(V),
-	.vga_R(R),
-	.vga_G(G),
-	.vga_B(B)
+	.inDisplayArea(D),
+	.CounterX(X),
+	.CounterY(Y)
 );
 
 always #1 clk = ~clk;
@@ -46,7 +40,7 @@ initial begin
 
 //	$monitor("time = %0t \t clk = %0h \t H = %0h \t V = %0h \t D = %0h \t X  = %0h \t Y = %0h",
 //	$time, clk, H, V, D, X, Y);
-
+  
 	file_out = $fopen(fileName_out, "wb"); 
 	if (!file_out) begin
 		$error("File could not be open: ", fileName_out);
@@ -61,8 +55,7 @@ end
 
 always @(X) begin
 	if(D) begin
-		#1 // wait color data be stable
-		$fwrite(file_out, "%c%c%c", B, G, R);
+		$fwrite(file_out, "%c%c%c", 8'hCC, 8'hBB, 8'hAA);
 	end else if(Y >= max_y && X >= max_x) begin
 		$fclose(file_out);
 		$stop();
