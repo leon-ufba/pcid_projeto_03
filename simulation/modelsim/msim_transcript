@@ -12,78 +12,57 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:18:27 on Nov 08,2022
+# Start time: 23:47:44 on Nov 21,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v 
 # -- Compiling module drawer
 # 
 # Top level modules:
 # 	drawer
-# End time: 01:18:27 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 23:47:44 on Nov 21,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:18:28 on Nov 08,2022
+# Start time: 23:47:45 on Nov 21,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v 
 # -- Compiling module vga
 # 
 # Top level modules:
 # 	vga
-# End time: 01:18:28 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 23:47:45 on Nov 21,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:18:28 on Nov 08,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v 
-# -- Compiling module reader_tb
-# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v(6): (vlog-2417) Multiple packed dimensions are not allowed.
-# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v(35): (vlog-2417) Multiple packed dimensions are not allowed.
-# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v(36): (vlog-2417) Multiple packed dimensions are not allowed.
+# Start time: 23:47:45 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03" C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v 
+# -- Compiling module drawer_tb
+# ** Warning: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v(26): (vlog-2417) Multiple packed dimensions are not allowed.
 # 
 # Top level modules:
-# 	reader_tb
-# End time: 01:18:28 on Nov 08,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
+# 	drawer_tb
+# End time: 23:47:45 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  reader_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" reader_tb 
-# Start time: 01:18:28 on Nov 08,2022
-# Loading work.reader_tb
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 58
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 59
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 62
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 63
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 68
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 70
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 83
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 84
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 87
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fread'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 88
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fseek'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 93
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ps  Iteration: 0  Instance: /reader_tb File: C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v Line: 95
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  drawer_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" drawer_tb 
+# Start time: 23:47:45 on Nov 21,2022
+# Loading work.drawer_tb
+# Loading work.drawer
+# Loading work.vga
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Leon  Hostname: DESKTOP-KJSGII7  ProcessID: 14284
-#           Attempting to use alternate WLF file "./wlftm1r62g".
+#           Attempting to use alternate WLF file "./wlftjmkkt4".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftm1r62g
+#           Using alternate file: ./wlftjmkkt4
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 300 ps
-# End time: 01:34:12 on Nov 08,2022, Elapsed time: 0:15:44
-# Errors: 0, Warnings: 14
+# run 6144000 ps
+# ** Note: $stop    : C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v(68)
+#    Time: 761725 ps  Iteration: 3  Instance: /drawer_tb
+# Break in Module drawer_tb at C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v line 68
+# End time: 23:51:22 on Nov 21,2022, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 2

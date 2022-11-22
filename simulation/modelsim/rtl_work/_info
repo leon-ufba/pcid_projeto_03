@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/simulation/modelsim
 vdrawer
-!s110 1667881107
+!s110 1669085264
 !i10b 1
 !s100 Udbc]hUk:bmzo6XnHZa=R1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,33 +26,33 @@ Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1667881107.000000
+!s108 1669085264.000000
 !s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v|
 !i113 1
 Z4 o-vlog01compat -work work
 Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03
 Z6 tCvgOpt 0
-vreader_tb
-Z7 !s110 1667881108
+vdrawer_tb
+Z7 !s110 1669085265
 !i10b 1
-!s100 VCmz_P2o3bBK1`7>k:5>G3
+!s100 9PP=<=FhbAf4zYcGgVZih0
 R1
-I;kLdb4B3@<nViNO<B>@A31
+IV:EB=:X<KIn7XhlRNL=:K3
 R2
 R0
-w1667881094
-8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v
-FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v
+w1669085235
+8C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v
+FC:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v
 !i122 2
-L0 1 152
+L0 1 73
 R3
 r1
 !s85 0
 31
-Z8 !s108 1667881108.000000
-!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/reader_tb.v|
+Z8 !s108 1669085265.000000
+!s107 C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03|C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v|
 !i113 1
 R4
 R5
