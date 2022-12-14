@@ -5,10 +5,12 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer.v}
-vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/vga.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projeto03/comparator.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projeto03/drawer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projeto03/vga.v}
+vcom -93 -work work {C:/Users/Leon/Desktop/universidade/PCID/projeto03/mem.vhd}
 
-vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projetos/projeto03/drawer_tb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Leon/Desktop/universidade/PCID/projeto03 {C:/Users/Leon/Desktop/universidade/PCID/projeto03/drawer_tb.v}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  drawer_tb
 

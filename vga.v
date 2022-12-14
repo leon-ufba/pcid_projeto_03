@@ -1,9 +1,10 @@
-module vga(clk, vga_h_sync, vga_v_sync, inDisplayArea, CounterX, CounterY);
+module vga(clk, data_ready, vga_h_sync, vga_v_sync, inDisplayArea, CounterX, CounterY);
 
 input  clk;
+input  data_ready;
 output vga_h_sync, vga_v_sync;
 output reg inDisplayArea = 0;
-output reg [9:0] CounterX = 0;
+output reg [9:0] CounterX = -1;
 output reg [9:0] CounterY = 0;
 
 //////////////////////////////////////////////////
@@ -18,7 +19,7 @@ localparam  [9:0] max_x = 640 + min_x - 1;
 localparam  [9:0] max_y = 480 + min_y - 1;
 
 always @(posedge clk) begin
-	clockCounter <= clockCounter + 1;
+	clockCounter <= (~inDisplayArea) ? clockCounter + 1 : (inDisplayArea && data_ready) ? clockCounter + 1 : clockCounter;
 end
 
 always @(clockCounter) begin // 16 clocks pulse
@@ -31,7 +32,7 @@ always @(CounterX, CounterY) begin
 	vga_HS <= (CounterX == 0); // change this value to move the display horizontally
 	vga_VS <= (CounterX == 0 && CounterY == 0); // change this value to move the display vertically
 end
-	
+
 assign vga_h_sync = ~vga_HS;
 assign vga_v_sync = ~vga_VS;
 

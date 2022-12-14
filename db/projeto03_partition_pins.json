@@ -1,0 +1,197 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CounterX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterX[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterY[9]",
+					"strict" : false
+				},
+				{
+					"name" : "inDisplayArea",
+					"strict" : false
+				},
+				{
+					"name" : "vga_h_sync",
+					"strict" : false
+				},
+				{
+					"name" : "vga_v_sync",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_R[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_G[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_B[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
